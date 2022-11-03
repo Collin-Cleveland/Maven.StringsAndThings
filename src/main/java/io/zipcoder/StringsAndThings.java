@@ -64,11 +64,9 @@ public class StringsAndThings {
         for(int i = 0; i < len - 1; i++){
             if(input.charAt(i) == 'i' && input.charAt(i+1) == 's'){
                     isCount++;
-                System.out.println("is:" + isCount);
             }
             if(input.charAt(i) == 'n' && input.charAt(i+1) == 'o' && input.charAt(i+2) == 't'){
                     notCount++;
-                System.out.println("not: " + notCount);
             }
         }
 
